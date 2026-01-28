@@ -1,33 +1,35 @@
 # 🐾 Poliperros
 
-Proyecto de gestión para el registro de los perros mascota de la **Escuela Politécnica Nacional del Ecuador**. Esta es una prueba de despliegue mediante un archivo ejecutable (.exe).
+Este repositorio contiene la prueba de despliegue del proyecto **Poliperros**, distribuido como un archivo ejecutable (.exe) para sistemas Windows.
 
 ![poliperros](https://github.com/user-attachments/assets/14440509-296c-436b-855a-994999506b5a)
 
 ## 📝 Descripción 
 
-Esta aplicación permite realizar operaciones **CRUD** (Guardar, Mostrar, Actualizar y Borrar) sobre la base de datos de los perros que forman parte de la comunidad politécnica.
+Poliperros es una herramienta diseñada para la gestión de datos de los perros mascota de la **Escuela Politécnica Nacional del Ecuador**. La aplicación facilita el registro (Guardar), visualización (Mostrar), edición (Actualizar) y eliminación (Borrar) de la información de los canes de la comunidad.
 
-## 🚀 Instrucciones de Instalación
+## 🚀 Instrucciones de Instalación y Ejecución
 
-Sigue estos pasos para ejecutar la aplicación en Windows:
+Para utilizar la aplicación, se deben seguir estos pasos:
 
-1. **Descargar el ejecutable:**  
-   Haz clic en el siguiente enlace para obtener el archivo:  
+1. **Descarga del archivo:**  
+   Obtener el ejecutable desde el siguiente enlace directo:  
    [Descargar Poliperros.exe](https://github.com/Javierpnrgt/Proyecto_Poliperros/raw/refs/heads/main/Poliperros.exe)
 
-2. **Permisos del navegador:**  
-   Al ser un archivo ejecutable, es posible que el navegador solicite una confirmación. Selecciona **"Conservar"** o **"Aceptar"**.
+2. **Gestión de permisos:**  
+   Al iniciar la descarga, el navegador podría solicitar una confirmación de seguridad; se debe seleccionar **"Aceptar"** o **"Conservar"**.
 
-3. **SmartScreen de Windows:**  
-   Al abrir el archivo, si aparece una ventana azul de aviso, haz clic en **"Más información"** y luego en el botón **"Ejecutar de todas formas"**.
+3. **Ejecución en Windows:**  
+   Al abrir el archivo, si aparece la ventana de protección de Windows, el usuario debe seleccionar **"Más información"** y posteriormente hacer clic en el botón **"Ejecutar de todas formas"**.
 
-4. **¡Listo!** El programa se iniciará automáticamente.
+4. **Inicio del sistema:**  
+   Una vez completados los pasos anteriores, la aplicación se iniciará automáticamente.
 
 ## 💡 Recomendaciones de Uso
 
-Para garantizar que la aplicación funcione correctamente y evitar cierres inesperados, ten en cuenta lo siguiente:
+Para asegurar un funcionamiento óptimo y evitar errores críticos durante la ejecución, se recomienda al usuario:
 
-*   **Validación de Datos:** Asegúrate de ingresar el tipo de dato correcto en cada campo. Por ejemplo, evita ingresar letras en campos de números (como edad o ID) y viceversa, ya que esto podría causar el cierre repentino de la aplicación.
-*   **Rutas de Imágenes:** Al registrar o actualizar una foto, debes ingresar la **ruta absoluta** de la imagen en tu computadora (ejemplo: `C:\Usuarios\Nombre\Imagenes\perrito.jpg`). Asegúrate de que el archivo exista en esa ubicación.
-*   **Simplicidad:** El proyecto está diseñado para ser intuitivo y ligero. Si el programa no responde, verifica que no existan caracteres especiales en los campos de texto.
+*   **Precisión en la Entrada de Datos:** Al ser un sistema simplificado, es fundamental ingresar los datos según el tipo solicitado. Introducir texto en campos numéricos (como edad) o números en campos de texto podría provocar el cierre inesperado del programa.
+*   **Gestión de Imágenes:** Para asociar una fotografía a un registro, se debe proporcionar la **ruta absoluta** donde se encuentra el archivo en la computadora local (Ejemplo: `C:\MisImagenes\perro_foto.jpg`).
+*   **Verificación de Rutas:** Se debe asegurar que la dirección de la imagen sea correcta y que el archivo no haya sido movido o eliminado de su ubicación original antes de ingresarla en el programa.
+*   **Compatibilidad:** Se debe ejecutar este programa exclusivamente en entornos **Windows**, ya que el formato `.exe` no es compatible con otros sistemas operativos.
